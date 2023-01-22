@@ -18,6 +18,12 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        return "abc";
+    }
+
+    public static void main(String[] args){
+        InstantiationExample i =new InstantiationExample();
+       
+        System.out.println(i.instantiateANewObject());
     }
 }
